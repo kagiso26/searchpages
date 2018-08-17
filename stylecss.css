@@ -1,0 +1,250 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+.search{
+  padding: 220px;
+  padding-left: 380px;
+}
+.wrapper{
+  background: url("pexels-lookup.jpeg");
+  height: 700px;
+  background-size: cover;
+  max-width: : 100%;
+}
+.search h1{
+  margin-bottom: 10px;
+  font-size: 60px;
+  color: rgba(224, 74, 41, 1);
+  position: absolute;
+  top: 90px;
+  right: 350px;
+  letter-spacing: 10px;
+}
+.lookup-btn{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  top: 370px;
+  right: 352px;
+}
+.button{
+  text-align: right;
+  background: linear-gradient(rgba(232, 106, 33, 1), rgba(232, 106, 33, 0.5));
+  border: none;
+  border-radius: 100px 0px 0px 100px;
+  padding: 10px 40px;
+  font-size: 20px;
+  color: white;
+  position: relative;
+  left: 25px;
+  font-weight: bold;
+}
+.buttons{
+  border: none;
+  border-radius: 0px 100px 100px 0px;
+  background: linear-gradient(rgba(232, 120, 94, 1), rgba(232, 120, 94, 0.5));
+  padding: 10px 40px;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.logo{
+  font-size: 50px;
+}
+.search-bar{
+  font-size: 20px;
+  position: absolute;
+  top: 280px;
+  right: 330px;
+}
+.button:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 6px grey;
+  background: linear-gradient(rgba(232, 106, 33, 0.9), rgba(232, 106, 33, 0.9));
+}
+.buttons:hover{
+  cursor: pointer;
+  box-shadow: 3px 3px 6px grey;
+  background: linear-gradient(rgba(232, 120, 94, 1), rgba(232, 120, 94, 0.9));
+}
+.option{
+  width: 100%;
+  position: fixed;
+  top: 0px;
+
+}
+.option ul li{
+  display: inline;
+  font-size: 20px;
+  margin-right: 10px;
+  float: right;
+  font-weight: bold;
+}
+.option ul li:hover{
+  background: linear-gradient(rgba(232, 120, 94, 1), rgba(232, 120, 94, 0.5));
+  box-shadow: 2px 2px 6px grey;
+  border-radius: 4px;
+  padding: 9px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+.active{
+  border-radius: 4px;
+  padding: 9px;
+  color: white;
+  cursor: pointer;
+  background: rgba(24, 122, 226, 1);
+  margin-right: 0px;
+}
+.user{
+  float: right;
+  margin-right: 5px;
+  margin-left: 0px;
+}
+input[type="search"]{
+  font-size: 33px;
+  padding: 0px 20px;
+  border: 2px solid rgba(24, 122, 226, 1);
+  border-radius: 3px;
+}
+@media screen and (max-width:768px){
+  .wrapper{
+    background: url("pexels-lookup.jpeg") 100%;
+    height: 700px;
+    background-size: cover;
+}
+.search h1{
+  margin-bottom: 10px;
+  font-size: 60px;
+  position: absolute;
+  top: 130px;
+  right: 200px;
+  letter-spacing: 5px;
+}
+.lookup-btn{
+  position: absolute;
+  top: 410px;
+  right: 180px;
+}
+input[type="search"]{
+  font-size: 20px;
+  padding: 0px 10px;
+}
+.search-bar{
+  font-size: 20px;
+  position: absolute;
+  top: 300px;
+  right: 210px;
+}
+.button{
+  padding: 3px 20px;
+  font-size: 20px;
+  position: relative;
+  left: 25px;
+}
+.buttons{
+  padding: 3px 20px;
+  font-size: 20px;
+}
+.lookup-btn{
+  position: absolute;
+  top: 400px;
+  right: 220px;
+}
+.option ul li{
+  font-size: 12px;
+  margin-right: 5px;
+}
+}
+@media screen and (max-width:414px){
+  .wrapper{
+    background: url("pexels-lookup.jpeg")100%;
+    height: 700px;
+}
+.search h1{
+  margin-bottom: 10px;
+  font-size: 40px;
+  position: absolute;
+  top: 150px;
+  right: 100px;
+  letter-spacing: 3px;
+}
+.lookup-btn{
+  position: absolute;
+  top: 410px;
+  right: 180px;
+}
+input[type="search"]{
+  font-size: 15px;
+  padding: 0px 10px;
+}
+.search-bar{
+  font-size: 20px;
+  position: absolute;
+  top: 300px;
+  right: 90px;
+}
+.button{
+  padding: 3px 18px;
+  font-size: 18px;
+  position: relative;
+  left: 24px;
+}
+.buttons{
+  padding: 3px 18px;
+  font-size: 18px;
+}
+.lookup-btn{
+  position: absolute;
+  top: 400px;
+  right: 92px;
+}
+.option ul li{
+  font-size: 11px;
+  margin-right: 2px;
+}
+}
+@media screen and (max-width:320px){
+  .search-bar{
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    right: 70px;
+}
+.search h1{
+  margin-bottom: 10px;
+  font-size: 40px;
+  position: absolute;
+  top: 170px;
+  right: 75px;
+  letter-spacing: 3px;
+}
+.lookup-btn{
+  position: absolute;
+  top: 350px;
+  right: 60px;
+}
+.option ul li{
+  font-size: 12px;
+  margin-right: 4px;
+  font-weight: bold;
+}
+.button{
+  padding: 3px 18px;
+  font-size: 15px;
+  position: relative;
+  left: 19px;
+}
+.buttons{
+  padding: 3px 18px;
+  font-size: 15px;
+}
+.lookup-btn{
+  position: absolute;
+  top: 350px;
+  right: 75px;
+}
+}
